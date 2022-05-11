@@ -60,35 +60,3 @@ getLocalTodos()
 }
 
 export default App;
-
-
-
-
-
-
-// export class App extends Component {
-//   constructor(){
-//     super();
-//     this.state = {
-//       inputText: '',
-//       setInputText: '',
-//       todos:'',
-//       setTodos:'',
-//     }
-//   }
-//   render() {
-//     const {inputText, setInputText, todos, setTodos} = this.state;
-//     return (
-//       <div className="App">
-//       <header>
-//         <h1>Todo List</h1>
-//       </header>
-
-//       <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} />
-//       <TodoList todos={todos}/>
-//     </div>
-//     )
-//   }
-// }
-
-// export default App;

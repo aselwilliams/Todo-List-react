@@ -1,6 +1,5 @@
 import React from 'react';
 import TodoList from './TodoList';
-// import TodoList from './components/TodoList';
 
 const Form = ({setInputText,todos,setTodos,inputText,setStatus}) =>{
   //Here we can write js code and functions
@@ -29,7 +28,6 @@ setStatus(e.target.value)
           <option value='completed'>Completed</option>
           <option value='uncompleted'>Uncompleted</option>
         </select>
-
       </div>
       </form>
       </>
